@@ -22,7 +22,7 @@ sudo usermod -a -G docker ec2-user
 
 
 #Restart the Docker Service
-#systemctl status na docker.service
+#systemctl status enable docker.service
 systemctl restart docker.service
 
 
