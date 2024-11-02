@@ -22,7 +22,6 @@ sudo usermod -a -G docker ec2-user
 
 
 #Restart the Docker Service
-#systemctl status sdf docker.service
 systemctl restart docker.service
 
 
